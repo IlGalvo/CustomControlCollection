@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Custom_Control_Collection
+namespace CustomControlCollection
 {
-    static class Program
+    static class MainProgram
     {
         /// <summary>
         /// Punto di ingresso principale dell'applicazione.
@@ -16,7 +13,7 @@ namespace Custom_Control_Collection
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
         }
     }
 }
