@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls
+namespace CustomControlCollection.Controls.Buttons
 {
     internal class HideTextButton : Button
     {

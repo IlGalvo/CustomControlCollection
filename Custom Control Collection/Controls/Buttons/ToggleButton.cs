@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls
+namespace CustomControlCollection.Controls.Buttons
 {
     internal class ToggleButton : Control
     {

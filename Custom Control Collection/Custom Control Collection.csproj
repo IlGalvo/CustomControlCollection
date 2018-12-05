@@ -39,25 +39,25 @@
     <Compile Include="Controls\FixedFlowLayoutPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\HideTextButton.cs">
+    <Compile Include="Controls\Buttons\HideTextButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Controls\OptimizedLabel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\OptimizedRichTextBox.cs">
+    <Compile Include="Controls\RichTextBoxes\OptimizedRichTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\ResizableRichTextBox.cs">
+    <Compile Include="Controls\RichTextBoxes\ResizableRichTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\RoundedButton.cs">
+    <Compile Include="Controls\Buttons\RoundedButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\SpecialButton.cs">
+    <Compile Include="Controls\Buttons\SpecialButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\ToggleButton.cs">
+    <Compile Include="Controls\Buttons\ToggleButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="MainForm.cs">

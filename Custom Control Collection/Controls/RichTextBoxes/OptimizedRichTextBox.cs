@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls
+namespace CustomControlCollection.Controls.RichTextBoxes
 {
     internal sealed class OptimizedRichTextBox : RichTextBox
     {
