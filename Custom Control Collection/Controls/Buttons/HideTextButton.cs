@@ -25,10 +25,10 @@ namespace CustomControlCollection.Controls.Buttons
         {
             if (textVisible)
             {
-                baseText = Text;
-
-                base.OnTextChanged(e);
+                baseText = Text;               
             }
+
+            base.OnTextChanged(e);
         }
         #endregion
     }
