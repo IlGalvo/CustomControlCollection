@@ -8,5 +8,15 @@ namespace CustomControlCollection
         {
             InitializeComponent();
         }
+
+        private void hidetextButtonProva_Click(object sender, System.EventArgs e)
+        {
+            hidetextButtonProva.TextVisible = (!hidetextButtonProva.TextVisible);
+        }
+
+        private void resizedLabelProva_Click(object sender, System.EventArgs e)
+        {
+            resizedLabelProva.Text += "porgfjpifekjgorgfjgprekgfregptgijr";
+        }
     }
 }

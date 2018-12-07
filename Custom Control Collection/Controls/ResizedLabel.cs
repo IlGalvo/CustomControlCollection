@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace CustomControlCollection.Controls
 {
-    internal sealed class OptimizedLabel : Label
+    internal sealed class ResizedLabel : Label
     {
         #region GLOBAL_VARIABLES
         private static readonly int Offset = 110;
@@ -15,7 +15,7 @@ namespace CustomControlCollection.Controls
         #endregion
 
         #region CONSTRUCTOR
-        public OptimizedLabel()
+        public ResizedLabel()
         {
             text = "optimizedLabel";
         }
@@ -46,14 +46,14 @@ namespace CustomControlCollection.Controls
             if (Parent != null)
             {
                 int currentWidth = TextRenderer.MeasureText(tmpText, Font).Width;
-                double widthRatio = ((((double)(Parent.Width - Offset))) / currentWidth);
+                double widthRatio = Math.Abs((((double)(Parent.Width - Offset))) / currentWidth);
 
-                while (widthRatio < -1.0)
+                while (widthRatio < 1.0)
                 {
                     tmpText = (tmpText.Substring(0, (((int)(tmpText.Length * widthRatio)) - 3)) + "...");
 
                     currentWidth = TextRenderer.MeasureText(tmpText, Font).Width;
-                    widthRatio = ((((double)(Parent.Width - Offset))) / currentWidth);
+                    widthRatio = Math.Abs((((double)(Parent.Width - Offset))) / currentWidth);
                 }
             }
 

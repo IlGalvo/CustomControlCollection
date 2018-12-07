@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace CustomControlCollection.Controls.Buttons
 {
-    public sealed class SpecialButton : Button
+    public sealed class ColoredButton : Button
     {
         #region GLOBAL_VARIABLES
         private Color baseColor;
@@ -20,7 +20,7 @@ namespace CustomControlCollection.Controls.Buttons
         #endregion
 
         #region CONSTRUCTOR 
-        public SpecialButton()
+        public ColoredButton()
         {
             BackColor = SystemColors.ControlLight;
 

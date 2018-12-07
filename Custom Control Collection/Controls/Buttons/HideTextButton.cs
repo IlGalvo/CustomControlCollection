@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace CustomControlCollection.Controls.Buttons
 {
-    internal class HideTextButton : Button
+    internal class HidetextButton : Button
     {
         #region GLOBAL_VARIABLES
         private string baseText;
@@ -13,7 +13,7 @@ namespace CustomControlCollection.Controls.Buttons
         #endregion
 
         #region CONSTRUCTOR
-        public HideTextButton()
+        public HidetextButton()
         {
             baseText = Text;
             textVisible = true;

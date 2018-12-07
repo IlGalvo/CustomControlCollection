@@ -36,16 +36,13 @@
     <Compile Include="Controls\ColoredProgressBar.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\FixedFlowLayoutPanel.cs">
+    <Compile Include="Controls\Buttons\HidetextButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\Buttons\HideTextButton.cs">
+    <Compile Include="Controls\ResizedLabel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\OptimizedLabel.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Controls\RichTextBoxes\OptimizedRichTextBox.cs">
+    <Compile Include="Controls\RichTextBoxes\PlaceholderRichTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Controls\RichTextBoxes\ResizableRichTextBox.cs">
@@ -54,7 +51,7 @@
     <Compile Include="Controls\Buttons\RoundedButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\Buttons\SpecialButton.cs">
+    <Compile Include="Controls\Buttons\ColoredButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Controls\Buttons\ToggleButton.cs">

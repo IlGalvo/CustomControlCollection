@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace CustomControlCollection.Controls.RichTextBoxes
 {
-    internal sealed class OptimizedRichTextBox : RichTextBox
+    internal sealed class PlaceholderRichTextBox : RichTextBox
     {
         #region GLOBAL_VARIABLES
         [DefaultValue("")]
@@ -22,7 +22,7 @@ namespace CustomControlCollection.Controls.RichTextBoxes
         #endregion
 
         #region CONSTRUCTOR
-        public OptimizedRichTextBox()
+        public PlaceholderRichTextBox()
         {
             DoubleBuffered = true;
 
