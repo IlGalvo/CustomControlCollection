@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace CustomControlCollection
+namespace Sample
 {
     static class MainProgram
     {

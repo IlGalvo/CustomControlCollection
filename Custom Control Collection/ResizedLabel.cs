@@ -2,9 +2,9 @@
 using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls
+namespace CustomControlCollection
 {
-    internal sealed class ResizedLabel : Label
+    public sealed class ResizedLabel : Label
     {
         #region GLOBAL_VARIABLES
         private static readonly int Offset = 110;

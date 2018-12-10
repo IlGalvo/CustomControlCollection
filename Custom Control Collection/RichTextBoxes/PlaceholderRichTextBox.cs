@@ -3,9 +3,9 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls.RichTextBoxes
+namespace CustomControlCollection.RichTextBoxes
 {
-    internal sealed class PlaceholderRichTextBox : RichTextBox
+    public sealed class PlaceholderRichTextBox : RichTextBox
     {
         #region GLOBAL_VARIABLES
         [DefaultValue("")]

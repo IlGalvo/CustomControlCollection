@@ -2,9 +2,9 @@
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls.Buttons
+namespace CustomControlCollection.Buttons
 {
-    internal sealed class RoundedButton : Button
+    public sealed class RoundedButton : Button
     {
         #region GLOBAL_VARIABLE
         private static readonly int DefaultSizeValue = 50;

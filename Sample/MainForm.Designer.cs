@@ -1,4 +1,4 @@
-﻿namespace CustomControlCollection
+﻿namespace Sample
 {
     partial class MainForm
     {
@@ -41,14 +41,6 @@
             this.tabPageResizableContent = new System.Windows.Forms.TabPage();
             this.tabPageContent = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.hidetextButtonProva = new CustomControlCollection.Controls.Buttons.HidetextButton();
-            this.roundedButtonProva = new CustomControlCollection.Controls.Buttons.RoundedButton();
-            this.coloredButtonProva = new CustomControlCollection.Controls.Buttons.ColoredButton();
-            this.toggleButtonProva = new CustomControlCollection.Controls.Buttons.ToggleButton();
-            this.placeholderRichTextBoxProva = new CustomControlCollection.Controls.RichTextBoxes.PlaceholderRichTextBox();
-            this.resizableRichTextBoxProva = new CustomControlCollection.Controls.RichTextBoxes.ResizableRichTextBox();
-            this.coloredProgressBar1 = new CustomControlCollection.Controls.ColoredProgressBar();
-            this.resizedLabelProva = new CustomControlCollection.Controls.ResizedLabel();
             this.tabControlMainContent.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControlButtonsContent.SuspendLayout();
@@ -103,7 +95,6 @@
             // 
             // tabPageHidetextContent
             // 
-            this.tabPageHidetextContent.Controls.Add(this.hidetextButtonProva);
             this.tabPageHidetextContent.Location = new System.Drawing.Point(4, 29);
             this.tabPageHidetextContent.Name = "tabPageHidetextContent";
             this.tabPageHidetextContent.Padding = new System.Windows.Forms.Padding(3);
@@ -114,7 +105,6 @@
             // 
             // tabPageRoundedContent
             // 
-            this.tabPageRoundedContent.Controls.Add(this.roundedButtonProva);
             this.tabPageRoundedContent.Location = new System.Drawing.Point(4, 29);
             this.tabPageRoundedContent.Name = "tabPageRoundedContent";
             this.tabPageRoundedContent.Padding = new System.Windows.Forms.Padding(3);
@@ -125,7 +115,6 @@
             // 
             // tabPageColoredContent
             // 
-            this.tabPageColoredContent.Controls.Add(this.coloredButtonProva);
             this.tabPageColoredContent.Location = new System.Drawing.Point(4, 29);
             this.tabPageColoredContent.Name = "tabPageColoredContent";
             this.tabPageColoredContent.Size = new System.Drawing.Size(649, 375);
@@ -135,7 +124,6 @@
             // 
             // tabPageToggleContent
             // 
-            this.tabPageToggleContent.Controls.Add(this.toggleButtonProva);
             this.tabPageToggleContent.Location = new System.Drawing.Point(4, 29);
             this.tabPageToggleContent.Name = "tabPageToggleContent";
             this.tabPageToggleContent.Size = new System.Drawing.Size(649, 375);
@@ -167,7 +155,6 @@
             // 
             // tabPagePlaceholderContent
             // 
-            this.tabPagePlaceholderContent.Controls.Add(this.placeholderRichTextBoxProva);
             this.tabPagePlaceholderContent.Location = new System.Drawing.Point(4, 29);
             this.tabPagePlaceholderContent.Name = "tabPagePlaceholderContent";
             this.tabPagePlaceholderContent.Padding = new System.Windows.Forms.Padding(3);
@@ -178,7 +165,6 @@
             // 
             // tabPageResizableContent
             // 
-            this.tabPageResizableContent.Controls.Add(this.resizableRichTextBoxProva);
             this.tabPageResizableContent.Location = new System.Drawing.Point(4, 29);
             this.tabPageResizableContent.Name = "tabPageResizableContent";
             this.tabPageResizableContent.Padding = new System.Windows.Forms.Padding(3);
@@ -189,7 +175,6 @@
             // 
             // tabPageContent
             // 
-            this.tabPageContent.Controls.Add(this.coloredProgressBar1);
             this.tabPageContent.Location = new System.Drawing.Point(4, 29);
             this.tabPageContent.Name = "tabPageContent";
             this.tabPageContent.Size = new System.Drawing.Size(663, 414);
@@ -199,7 +184,6 @@
             // 
             // tabPage5
             // 
-            this.tabPage5.Controls.Add(this.resizedLabelProva);
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -207,94 +191,6 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Label";
             this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // hidetextButtonProva
-            // 
-            this.hidetextButtonProva.Location = new System.Drawing.Point(136, 110);
-            this.hidetextButtonProva.Name = "hidetextButtonProva";
-            this.hidetextButtonProva.Size = new System.Drawing.Size(154, 54);
-            this.hidetextButtonProva.TabIndex = 0;
-            this.hidetextButtonProva.Text = "hidetextButtonProva";
-            this.hidetextButtonProva.TextVisible = true;
-            this.hidetextButtonProva.UseVisualStyleBackColor = true;
-            this.hidetextButtonProva.Click += new System.EventHandler(this.hidetextButtonProva_Click);
-            // 
-            // roundedButtonProva
-            // 
-            this.roundedButtonProva.BackColor = System.Drawing.Color.LightGray;
-            this.roundedButtonProva.FlatAppearance.BorderSize = 0;
-            this.roundedButtonProva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButtonProva.Location = new System.Drawing.Point(247, 121);
-            this.roundedButtonProva.Name = "roundedButtonProva";
-            this.roundedButtonProva.Size = new System.Drawing.Size(103, 96);
-            this.roundedButtonProva.TabIndex = 0;
-            this.roundedButtonProva.Text = "roundedButtonProva";
-            this.roundedButtonProva.UseVisualStyleBackColor = false;
-            // 
-            // coloredButtonProva
-            // 
-            this.coloredButtonProva.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.coloredButtonProva.ClickedColor = System.Drawing.SystemColors.ActiveCaption;
-            this.coloredButtonProva.Location = new System.Drawing.Point(206, 112);
-            this.coloredButtonProva.Name = "coloredButtonProva";
-            this.coloredButtonProva.Size = new System.Drawing.Size(148, 75);
-            this.coloredButtonProva.TabIndex = 0;
-            this.coloredButtonProva.Text = "coloredButton1";
-            this.coloredButtonProva.UseVisualStyleBackColor = false;
-            // 
-            // toggleButtonProva
-            // 
-            this.toggleButtonProva.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.toggleButtonProva.Location = new System.Drawing.Point(234, 136);
-            this.toggleButtonProva.Name = "toggleButtonProva";
-            this.toggleButtonProva.OffColor = System.Drawing.Color.Red;
-            this.toggleButtonProva.OnColor = System.Drawing.Color.DodgerBlue;
-            this.toggleButtonProva.Size = new System.Drawing.Size(89, 41);
-            this.toggleButtonProva.TabIndex = 0;
-            this.toggleButtonProva.ToggleColor = System.Drawing.Color.White;
-            this.toggleButtonProva.ToggleState = false;
-            // 
-            // placeholderRichTextBoxProva
-            // 
-            this.placeholderRichTextBoxProva.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.placeholderRichTextBoxProva.Location = new System.Drawing.Point(6, 136);
-            this.placeholderRichTextBoxProva.Name = "placeholderRichTextBoxProva";
-            this.placeholderRichTextBoxProva.PlaceholderText = "Scrivi qualcosa...";
-            this.placeholderRichTextBoxProva.PlaceholerFont = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.placeholderRichTextBoxProva.Size = new System.Drawing.Size(637, 37);
-            this.placeholderRichTextBoxProva.TabIndex = 0;
-            this.placeholderRichTextBoxProva.Text = "";
-            // 
-            // resizableRichTextBoxProva
-            // 
-            this.resizableRichTextBoxProva.CharsPerRow = 50;
-            this.resizableRichTextBoxProva.Location = new System.Drawing.Point(6, 29);
-            this.resizableRichTextBoxProva.MaxRows = 10;
-            this.resizableRichTextBoxProva.Name = "resizableRichTextBoxProva";
-            this.resizableRichTextBoxProva.Size = new System.Drawing.Size(637, 141);
-            this.resizableRichTextBoxProva.TabIndex = 0;
-            this.resizableRichTextBoxProva.Text = "";
-            // 
-            // coloredProgressBar1
-            // 
-            this.coloredProgressBar1.Location = new System.Drawing.Point(8, 153);
-            this.coloredProgressBar1.Name = "coloredProgressBar1";
-            this.coloredProgressBar1.ProgressColor = System.Drawing.Color.Khaki;
-            this.coloredProgressBar1.ShowPercentageText = true;
-            this.coloredProgressBar1.Size = new System.Drawing.Size(647, 42);
-            this.coloredProgressBar1.TabIndex = 0;
-            this.coloredProgressBar1.Value = 75;
-            // 
-            // resizedLabelProva
-            // 
-            this.resizedLabelProva.AutoSize = true;
-            this.resizedLabelProva.Location = new System.Drawing.Point(6, 130);
-            this.resizedLabelProva.Name = "resizedLabelProva";
-            this.resizedLabelProva.Size = new System.Drawing.Size(592, 20);
-            this.resizedLabelProva.TabIndex = 0;
-            this.resizedLabelProva.Text = "pfijewfegrtghrhpjtoiirthgnrfeogjporkprgjrepfrjotgthrtyhttty4eygegprejgiogjigijopg" +
-    "joritg";
-            this.resizedLabelProva.Click += new System.EventHandler(this.resizedLabelProva_Click);
             // 
             // MainForm
             // 
@@ -340,14 +236,6 @@
         private System.Windows.Forms.TabPage tabPageResizableContent;
         private System.Windows.Forms.TabPage tabPageContent;
         private System.Windows.Forms.TabPage tabPage5;
-        private Controls.Buttons.HidetextButton hidetextButtonProva;
-        private Controls.Buttons.RoundedButton roundedButtonProva;
-        private Controls.Buttons.ColoredButton coloredButtonProva;
-        private Controls.Buttons.ToggleButton toggleButtonProva;
-        private Controls.RichTextBoxes.PlaceholderRichTextBox placeholderRichTextBoxProva;
-        private Controls.RichTextBoxes.ResizableRichTextBox resizableRichTextBoxProva;
-        private Controls.ColoredProgressBar coloredProgressBar1;
-        private Controls.ResizedLabel resizedLabelProva;
     }
 }
 

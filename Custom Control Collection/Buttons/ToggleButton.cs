@@ -4,9 +4,9 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls.Buttons
+namespace CustomControlCollection.Buttons
 {
-    internal class ToggleButton : Control
+    public sealed class ToggleButton : Control
     {
         #region GLOBAL_VARIABLES
         public delegate void ToggledChangedEventHandler(object sender, EventArgs e);

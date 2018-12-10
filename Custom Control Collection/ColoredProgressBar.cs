@@ -4,9 +4,9 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls
+namespace CustomControlCollection
 {
-    internal class ColoredProgressBar : ProgressBar
+    public sealed class ColoredProgressBar : ProgressBar
     {
         #region GLOBAL_VARIABLES
         private const string DefaultProgressColor = ("#ff06b025");

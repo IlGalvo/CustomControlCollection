@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls.Buttons
+namespace CustomControlCollection.Buttons
 {
     public sealed class ColoredButton : Button
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls.Buttons
+namespace CustomControlCollection.Buttons
 {
-    internal class HidetextButton : Button
+    public sealed class HidetextButton : Button
     {
         #region GLOBAL_VARIABLES
         private string baseText;

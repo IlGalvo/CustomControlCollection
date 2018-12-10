@@ -2,9 +2,9 @@
 using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace CustomControlCollection.Controls.RichTextBoxes
+namespace CustomControlCollection.RichTextBoxes
 {
-    internal sealed class ResizableRichTextBox : RichTextBox
+    public sealed class ResizableRichTextBox : RichTextBox
     {
         #region GLOBAL_VARIABLES
         private int maxRows;
