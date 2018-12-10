@@ -2,14 +2,14 @@
 
 namespace CustomControlCollection
 {
-    public sealed class FixedFlowLayoutPanel : FlowLayoutPanel
+    public sealed class OptimizedFlowLayoutPanel : FlowLayoutPanel
     {
         #region GLOBAL_VARIABLE
         private static readonly int Ws_Clipchildren = 0x02000000;
         #endregion
 
         #region CONSTRUCTOR
-        public FixedFlowLayoutPanel()
+        public OptimizedFlowLayoutPanel()
         {
             DoubleBuffered = true;
         }

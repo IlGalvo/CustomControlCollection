@@ -46,11 +46,11 @@
     <Compile Include="ColoredProgressBar.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="FixedFlowLayoutPanel.cs">
+    <Compile Include="OptimizedFlowLayoutPanel.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResizedLabel.cs">
+    <Compile Include="ResizableLabel.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="RichTextBoxes\PlaceholderRichTextBox.cs">

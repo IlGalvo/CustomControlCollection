@@ -4,10 +4,10 @@ using System.Windows.Forms;
 
 namespace CustomControlCollection
 {
-    public sealed class ResizedLabel : Label
+    public sealed class ResizableLabel : Label
     {
         #region GLOBAL_VARIABLES
-        private static readonly int Offset = 110;
+        private static readonly int Offset = 100;
 
         private string text;
         [DefaultValue("optimizedLabel")]
@@ -15,7 +15,7 @@ namespace CustomControlCollection
         #endregion
 
         #region CONSTRUCTOR
-        public ResizedLabel()
+        public ResizableLabel()
         {
             text = "optimizedLabel";
         }
