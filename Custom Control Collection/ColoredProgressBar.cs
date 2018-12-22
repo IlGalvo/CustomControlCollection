@@ -9,7 +9,21 @@ namespace CustomControlCollection
     public sealed class ColoredProgressBar : ProgressBar
     {
         #region GLOBAL_VARIABLES
-        private const string DefaultProgressColor = ("#ff06b025");
+        private const string DefultBackgroundColor = ("#FBFBFB");
+        private const string DefaultProgressColor = ("#06b025");
+
+        [Browsable(false)]
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        [DefaultValue(typeof(Color), "Control")]
+        public override Color BackColor { get => base.BackColor; set => base.BackColor = value; }
+
+        [Browsable(true)]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [DefaultValue(typeof(Font), "Microsoft Sans Serif, 8.25")]
+        public override Font Font { get => base.Font; set => base.Font = value; }
+
+        [DefaultValue(typeof(Color), DefultBackgroundColor)]
+        public Color BackgroundColor { get; set; }
 
         [DefaultValue(typeof(Color), DefaultProgressColor)]
         public Color ProgressColor { get; set; }
@@ -28,6 +42,7 @@ namespace CustomControlCollection
                 SetStyle(ControlStyles.UserPaint, true);
             }
 
+            BackgroundColor = ColorTranslator.FromHtml(DefultBackgroundColor);
             ProgressColor = ColorTranslator.FromHtml(DefaultProgressColor);
             ShowPercentageText = false;
         }
@@ -54,7 +69,7 @@ namespace CustomControlCollection
                     ProgressBarRenderer.DrawHorizontalBar(mainGraphics, baseRectangle);
                     baseRectangle.Inflate(new Size(-2, -2));
 
-                    mainGraphics.FillRectangle(new SolidBrush(Color.FromArgb(251, 251, 251)), baseRectangle);
+                    mainGraphics.FillRectangle(new SolidBrush(BackgroundColor), baseRectangle);
 
                     Rectangle mainRectangle = new Rectangle(Point.Empty, Size);
                     mainRectangle.Inflate(new Size(-1, -1));
