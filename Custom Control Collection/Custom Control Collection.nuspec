@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>Terminator24</owners>
+    <licenseUrl>https://github.com/Terminator24/CustomControlCollection/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/Terminator24/CustomControlCollection</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>WinForm Custom Control Collection Library</tags>
+  </metadata>
+</package>

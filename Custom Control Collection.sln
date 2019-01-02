@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Control Collection", "Custom Control Collection\Custom Control Collection.csproj", "{A0ECE02E-31D0-4E8B-A355-BFE61DF97CAE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{604BE4EB-9669-46EC-87BC-D745660F0A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Control Collection", "Custom Control Collection\Custom Control Collection.csproj", "{A0ECE02E-31D0-4E8B-A355-BFE61DF97CAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
