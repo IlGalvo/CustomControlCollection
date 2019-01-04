@@ -60,11 +60,13 @@
     <Compile Include="RichTextBoxes\ResizableRichTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Settings\SettingsManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Custom Control Collection.nuspec" />
