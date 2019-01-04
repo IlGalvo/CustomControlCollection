@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/Terminator24/CustomControlCollection</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>First release.</releaseNotes>
+    <releaseNotes>Full changelog: https://github.com/Terminator24/CustomControlCollection/blob/master/CHANGELOG.md here.</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>WinForm Custom Control Collection Library</tags>
   </metadata>
